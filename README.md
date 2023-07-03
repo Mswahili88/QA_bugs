@@ -16,3 +16,12 @@
 
 **telegram:** @Mswahili88 <br>
 **email:** mswahili88@yandex.ru
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+``` 
